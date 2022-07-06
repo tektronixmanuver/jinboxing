@@ -10,4 +10,4 @@ chmod +x ./pkt
 #tmux send-keys -t $session './pkt ann -p pkt1qeqdz7zz9w7cuasfjy6qd8xtw362a0et5eczl9r http://pool.pktpool.io http://pool.pkt.world' Enter
 
 screen -dmS $session
-screen -S mine -X stuff './pkt ann -p pkt1qeqdz7zz9w7cuasfjy6qd8xtw362a0et5eczl9r http://pool.pkt.world http://pool.pktpool.io\n'
+screen -S mine -X stuff './pkt ann -p pkt1qeqdz7zz9w7cuasfjy6qd8xtw362a0et5eczl9r https://stratum.zetahash.com http://pool.pkt.world http://pool.pktpool.io\n'
